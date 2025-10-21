@@ -20,7 +20,6 @@ public class LoginForm extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         Password.addActionListener(e -> jButton1ActionPerformed(e));
-        Username.addActionListener(e -> jButton1ActionPerformed(e));
         System.out.println("test");
         Username.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
@@ -28,6 +27,8 @@ public class LoginForm extends javax.swing.JFrame {
         }
     });
         
+ 
+    
         
     }
 
